@@ -1,0 +1,49 @@
+{
+  "name": "likemusic/yandex-fleet-taxi-lead-monitor-google-spreadsheet-runner",
+  "description": "Lead monitor by Google spreadsheet runner",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "require": {
+    "php": "^7.3",
+    "ext-json": "*",
+    "likemusic/yandex-fleet-taxi-lead-monitor-google-spreadsheet": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "authors": [
+    {
+      "name": "Valerij Ivashchenko",
+      "email": "likemusicdev@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-lead-monitor-google-spreadsheet.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-lead-monitor-base.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-lead-repository-google-spreadsheet.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-lead-repository.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:likemusic/yandex-fleet-taxi-client.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Likemusic\\YandexFleetTaxi\\LeadMonitor\\GoogleSpreadsheet\\Runner\\": "src/",
+      "Likemusic\\YandexFleetTaxi\\LeadMonitor\\GoogleSpreadsheet\\Runner\\Tests\\": "tests/"
+    }
+  }
+}

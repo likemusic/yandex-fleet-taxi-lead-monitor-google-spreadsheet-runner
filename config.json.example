@@ -1,0 +1,12 @@
+{
+  "google-spreadsheet": {
+    "credentialsPath": "credentials.json",
+    "tokenPath": "token.json",
+    "spreadsheetId": "1baxAq-otNeyKajWcIt7yQHq1oWyVDGHp54YbwRJszIw"
+  },
+  "yandex": {
+    "login": "socol-test",
+    "password": "s12346",
+    "parkId": "8d40b7c41af544afa0499b9d0bdf2430"
+  }
+}
